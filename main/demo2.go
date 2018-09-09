@@ -20,6 +20,7 @@ func sayhelloName(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Hello Wrold!") //这个写入到w的是输出到客户端的
 }
 func init() {
+
 	flag.StringVar(&name, "name", "everyone", "the greeting object.")
 }
 func main() {
