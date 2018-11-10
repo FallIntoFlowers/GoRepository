@@ -2,23 +2,19 @@ package main
 
 import (
 	"fmt"
-	in "github.com/FallIntoFlowers/GoRepository/request"
+	"github.com/FallIntoFlowers/GoRepository/src/utils"
 	)
 
 func main() {
-	in.A();
-	var a = 2
-	if a > 1 {
-		a := 5
-		fmt.Println(a)
-	} else {
-		var a = 7
-		fmt.Println(a)
-	}
-	if a > 1 {
-		var a = 7
-		fmt.Println(a)
-	}
-	fmt.Println(a);
+	//a := math.Trunc(20.6)
+	//fmt.Println(a)
+	//
+	//count := utils.CountAdd(74.96, 20.48)
+	//fmt.Println(count)
+	//count = utils.CountSub(74.96, 20.48)
+	//fmt.Println(count)
+	//x := 74.96;  y:= 20.48
+	//fmt.Println(x-y)
 
+	fmt.Println(utils.ParseInt("454.55"))
 }
